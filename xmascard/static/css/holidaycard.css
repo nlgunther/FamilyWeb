@@ -1,0 +1,65 @@
+hr {
+        position: relative;
+        top: 20px;
+        border: none;
+        height: 12px;
+        background: green;
+        margin-bottom: 50px;
+    }
+	
+td {
+	padding: 2px;
+	text-align: center;
+}
+
+#htext {color: red; text-align: center; font-size: 10em}
+
+#hdrtext {color: green; text-align: center; font-size: 6em}
+
+#holidaytext {
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+    width: 80%;
+    color: green;
+    font-size: 2.5em;
+}
+
+#obhead {
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-style: italic;
+    width: 80%;
+    color: black;
+	text-align: center;
+    font-size: 4em;
+}
+
+#obtext {
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
+    width: 90%;
+    color: black;
+    font-size: 2em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  font-size: 2em;
+}
+
+.photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: green;
+  text-align: center; 
+  font-style: italic;
+  font-size: 2em}
