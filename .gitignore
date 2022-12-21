@@ -3,20 +3,16 @@
 *~
 __pycache__
 
-# Office
-*.odt
-*.csv
-*.ods
-*.xlsx
-
 # Env
 .env
-myvenv/
-venv/
-djangovenv/
+base/
+djenv/
+infp38/
+p38/
+py38dev/
 
 # Database
-#db.sqlite3
+db.sqlite3
 
 # Static folder at project root
 /static/
