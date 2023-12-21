@@ -5,20 +5,14 @@ __pycache__
 
 # Env
 .env
-base/
-djenv/
-infp38/
-p38/
-py38dev/
+myvenv/
+venv/
 
 # Database
 db.sqlite3
 
 # Static folder at project root
 /static/
-
-# Static folder in application
-/xmascard/static/
 
 # macOS
 ._*

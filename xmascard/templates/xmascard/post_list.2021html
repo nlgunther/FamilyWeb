@@ -1,0 +1,59 @@
+{% load static %}
+
+<html>
+<head>
+<title>Happy Holidays from the Gunthers during Winter 2021-22!</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/holidaycard.css' %}">
+</head>
+<div id=htext>Happy Holidays!</div>
+<body><div>
+<img id="collage" alt="2018 Events"  class="center" data-type="image" style="width: 1500px; height: 1000px; object-fit: cover;" src="{% static 'images/xmas2021hd.jpg' %}">
+</div> 
+<br>
+<br>
+
+<br>
+<br>
+
+<div id=hdrtext>LOOKING BACK AT 2021</div>
+
+<div id=holidaytext> 
+{{posts.2.text |linebreaksbr}}
+</div>
+<hr>
+<table><tbody><tr>
+<div id=htext> 
+Warmly,<br>
+Nick, Susanna,<br>
+John, David & Adam<br>
+Gunther
+<hr>
+</div>
+<table>
+<tr>
+<td>
+<div class="photo">New Music Enthusiasts in NYC</div>
+<div class="center">
+<img id="close" alt="New Music Concert 2021" class="center" data-type="image" style="width: 600px; height: 400px; object-fit: cover;" src="{% static 'images/concert_2021.jpg' %}">
+</div>
+</td>
+<td>
+<div class="photo">John and his Tree</div>
+<div class="center">
+<img id="close" alt="John's Tree" class="center" data-type="image" style="width: 600px; height: 400px; object-fit: cover;" src="{% static 'images/john_tree_HC_2021.jpg' %}">
+</div>
+</tr>
+
+<tr>
+<div class="photo">Gone but not Forgotten</div>
+<div class="center">
+<img id="close" alt="ZWK" class="center" data-type="image" style="width: 600px; height: 600px; object-fit: cover;" src="{% static 'images/ZWK_sotheby.jpg' %}">
+</div>
+</tr>
+</table>
+<div class="photo">
+</div>
+<hr>
+</body></html>	

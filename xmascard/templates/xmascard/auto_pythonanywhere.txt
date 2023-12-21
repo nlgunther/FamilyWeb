@@ -1,0 +1,1 @@
+pa_autoconfigure_django.py --python=3.8 https://github.com/nlgunther/FamilyWeb.git

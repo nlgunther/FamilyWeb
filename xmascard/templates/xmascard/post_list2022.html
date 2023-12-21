@@ -1,0 +1,59 @@
+{% load static %}
+
+<html>
+<head>
+<title>Happy Holidays from the Gunthers during Winter 2022-23!</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/holidaycard.css' %}">
+</head>
+<div id=htext>Happy Holidays!</div>
+<body><div>
+<img id="collage" alt="2018 Events"  class="center" data-type="image" style="width: 1200px; height: 1150px;" src="{% static 'images/xmas2022hd.jpg' %}">
+</div> 
+<br>
+<br>
+
+<br>
+<br>
+
+<div id=hdrtext>LOOKING BACK AND FORWARD FROM 2022</div>
+
+<div id=holidaytext> 
+{{posts.3.text |linebreaksbr}}
+</div>
+<hr>
+<table><tbody><tr>
+<div id=htext> 
+Warmly,<br>
+Nick, Susanna,<br>
+John, David & Adam<br>
+Gunther
+<hr>
+</div>
+<table>
+<tr>
+<td>
+<div class="photo">Walk like an ....</div>
+<div class="center">
+<img id="close" alt="Met Museum 2022" class="center" data-type="image" style="width: 600px; height: 400px; object-fit: cover;" src="{% static 'images/walk_like_an.jpg' %}">
+</div>
+</td>
+<td>
+<div class="photo">Now for dinner at Sardi's and waiting for the reviews</div>
+<div class="center">
+<img id="close" alt="Ginger Girl play" class="center" data-type="image" style="width: 600px; height: 400px; object-fit: cover;" src="{% static 'images/casting_call.jpg' %}">
+</div>
+</tr>
+
+<tr>
+<div class="photo">Grandparents' Day at St. James</div>
+<div class="center">
+<img id="close" alt="Grandparents" class="center" data-type="image" style="width: 600px; height: 600px; object-fit: cover;" src="{% static 'images/grandparents_day.JPG' %}">
+</div>
+</tr>
+</table>
+<div class="photo">
+</div>
+<hr>
+</body></html>	
